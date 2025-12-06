@@ -1,0 +1,5 @@
+{
+  "name": "AI Image Creator VN",
+  "description": "Ứng dụng tạo hình ảnh tự động từ văn bản sử dụng Gemini API. Nhập mô tả và chọn tỷ lệ khung hình để tạo ra những bức ảnh độc đáo.",
+  "requestFramePermissions": []
+}
