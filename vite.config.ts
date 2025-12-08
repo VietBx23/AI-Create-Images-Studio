@@ -16,7 +16,8 @@ export default defineConfig(({ mode }) => {
     },
     preview: {
       host: true,
-      port: 4173
+      port: 4173,
+      allowedHosts: true // Allow all hosts (required for Render deployment)
     },
     define: {
       // This is crucial: Render sets process.env.API_KEY, but the browser doesn't see it.
